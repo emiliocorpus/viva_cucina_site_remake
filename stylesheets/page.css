@@ -32,13 +32,13 @@ body {
 	background-color: #FFFF00;
 	width:100%;
 	text-align:center;
-
+	height:150px;
+	
 }
 
 #banner {
 	border: 3px solid #FFFF00;
 	width: 100%;
-	height:140px;
 	background-color: #FFFF00;
 	display:table;
 
@@ -68,11 +68,10 @@ body {
 }
 
 #banner-title span:nth-child(3) {
-	margin-top:0%;
 	font-family: 'Mistral';
-	font-size: 35px;
+	font-size: 25px;
 	margin-top: 0;
-	margin-left:20px;
+	margin-left:50px;
 }
 
 /* NAV */
@@ -136,10 +135,24 @@ nav a:hover, nav a:focus{
 	margin-top:50px;
 }
 
-#quote{
+
+
+#quote, #landing-header{
 	text-align:justify;
-	font-size: 1.75em;
+	font-size: 1.5em;
+}
+
+#quote {
+	font-weight:bold;
+}
+
+#landing-header {
+	text-align:center;
 	font-weight:bolder;
+	font-size:1.8em;
+	font-variant: small-caps;
+	color:#E16028;
+
 }
 
 #author{
@@ -151,6 +164,7 @@ nav a:hover, nav a:focus{
 #lower-content-container {
 	padding:20px;
 	margin-top:50px;
+	font-size:1.25em;
 }
 
 #content {
@@ -162,9 +176,6 @@ nav a:hover, nav a:focus{
 	text-decoration:underline;
 }
 
-#intro p {
-	margin:10px;
-}
 
 #intro {
 	text-align:justify;
@@ -177,7 +188,7 @@ nav a:hover, nav a:focus{
 	width:600px;
     height:400px;
 	vertical-align:top;
-	box-shadow:6px 6px 6px black;
+	box-shadow:8px 10px 6px #505050;
 }
 
 #slideshow{
@@ -291,7 +302,7 @@ nav a:hover, nav a:focus{
 }
 
 #footer a{
-	color: #7578D5;
+	color: #FFFF00;
 
 }
 
