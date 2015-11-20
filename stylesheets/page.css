@@ -2,8 +2,8 @@
 
 /*.debugger {
 	border: 1px solid red;
-}*/
-
+}
+*/
 html, body {
   box-sizing: border-box;
   margin: 0;
@@ -18,7 +18,10 @@ body {
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100%;
+  min-width:1061px;
+  background-color:#F7F7CE;
 }
+
 
 /* ************************************************************  */
 
@@ -28,175 +31,148 @@ body {
 #header {
 	background-color: #FFFF00;
 	width:100%;
+	text-align:center;
+
 }
 
 #banner {
 	border: 3px solid #FFFF00;
 	width: 100%;
-	min-width: 900px;
 	height:160px;
 	background-color: #FFFF00;
 	display:table;
-	box-shadow:4px 4px 15px black;
 
 }
 #logo-container {
-	height:125px;
-	width:300px;
 	display:table-cell;
 	vertical-align: middle;
+	padding-left:5%;
 }
 #logo-container img{
 	height:130px;
 	width: 130px;
-	margin-left:175px;
 }
 
 #banner-title{
 	display:table-cell;
-	vertical-align: middle;
+	text-align:left;
 	height:125px;
+
 }
 
 #banner-title span:nth-child(1) {
 	font-family: 'Mistral';
 	text-shadow: 1px 1px #5C5C5C;
 	font-size:80px;
-	margin-left: 175px;
+	margin-left:20px;
 }
 
 #banner-title span:nth-child(3) {
 	margin-top:0%;
 	font-family: 'Mistral';
 	font-size: 35px;
-	margin-left:175px;
 	margin-top: 0;
-}
-/*SIDEBAR AND CONTENT*/
-
-#sidebar-content-container {
-	display:table;
-	width: 100%;
-	height:600px;
+	margin-left:20px;
 }
 
-/*SIDERBAR*/
-#sidebar{
-	width: 150px;
-	display:table-cell;
-	height:100%;
-	padding-top:-20px;
-}
-
-#sidebar-buttons: {
-	top:0;
-}
-
-#sidebar a{
-	color:#000000;
-   	text-decoration: none;
-   	font-size: 0.6em;
-   	font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-
-#sidebar a:hover {
-	background-color: #04b300;		
-	color: #FFF;
-	text-decoration: none;
-}
-
-#sidebar a:visited {
-	font-size: 30px;
-	text-decoration:none;
-	color:#000000;
-}
+/* NAV */
 
 
-.sidebar-item {
+nav {
+	width:100%;
+	height:auto;
+	background-color:#6F5534;
+	height:75px;
 	text-align:center;
-	margin:8px;
-	padding:5px;
-	margin-left:30px;
-	margin-top:0px;
-	width:140px;
-	background-color: #FFFF00;
-	box-shadow: 3px 1px 1px black;
-	text-decoration: none;
+	vertical-align:middle;
+	color:white;
+	font-size:1.3em;
+	line-height: 75px;
+	font-variant: small-caps;
 }
 
-.sidebar-item:hover {
-	background-color: #04b300;		
-	color: #FFF;
-	text-decoration: none;
+.menu-container {
+	width:100%;
+	height:75px;
+	text-align:center;
+}
+
+nav ul {
+
+}
+
+nav li {
+	display:inline-block;
+	text-align:center;
+	margin-left:10px;
+}
+
+nav a {
+	color: white;
+	text-decoration:none;
+}
+
+nav a:hover, nav a:focus{
+	color: #FFFF00;
+	text-decoration:none;
+	text-shadow:1px 1px 1px black;
 }
 
 
-/* CONTENT */
 
-#content-container {
-	display:table-cell;
-	overflow-y:auto;
-	padding-top:30px;
-	padding-bottom:10px;
+#upper-content-container {
+	padding:20px;
+	border:2px solid blue;
+	height:450px;
+	text-align:center;
+}
 
+#landing-page-quote {
+	/*border: 1px solid black;
+	background-color:#E0E0E0;
+	box-shadow:3px 3px 3px black;*/
+	width:300px;
+	padding:1%;
+	display:inline-block;
+	margin-left:20px;
+	margin-right:50px;
+	text-align:justify;
+}
+
+#landing-page-quote span{
+	text-align:left;
+}
+
+#lower-content-container {
+	padding:20px;
+	border: 2px solid blue;
+	margin-top:100px;
 }
 
 #content {
-	border:1px solid #676767;
-	
-	background-color: #F1F1F1;
-	padding:15px;
-	width:85%;
-	min-width:800px;
-	margin: 0 auto;
-	font-family: Arial, Helveltica, sans-serif;
-	box-shadow: 5px 5px 10px black;
+	padding:20px;
+	padding-top:10px;
 }
 
-#content h2{
-	margin-left:50px;
+#intro p {
+	margin:10px;
 }
 
-#content div img {
-	max-width: 800px;
+#intro {
+	text-align:justify;
+	width:500px;
 }
-
-.br25 {
-	border-radius: 25px;
-}
-
-
-#content a:visited {
-	color: black;
-}
-
-#content a:hover {
-	color:blue;
-}
-
-.menu-link:hover {
-	color: blue;
-	font-weight:bolder;
-}
-
-.menu-link {
-	color:black;
-	font-weight:bold;
-}
-
-.top-content-pic-container {
-	text-align: center;
-}
-
-.video-list li, {
-	list-style-type:none;
-}
-
-
 /*SLIDESHOW */
 
+#slideshow-container {
+	display: inline-block;
+	height:500px;
+	width:625px;
+	padding:5px;
+	vertical-align:top;
+}
+
 #slideshow{
-    margin:0 auto;
     width:600px;
     height:400px;
     overflow:hidden;
@@ -281,16 +257,11 @@ body {
 
 
 
-
-
-
-
 /*  FOOTER  */
 #footer {
 	/*background-color:#C0C0C0;*/
 	height:100px;
 	width: 100%;
-	min-width: 900px;
 	display: block;
 	margin-top: 100px;
 }
@@ -302,7 +273,6 @@ body {
 	bottom: 0;
 	text-align:center;
 	height: 100px;
-	min-width: 900px;
 	width: 100%;
 }
 
