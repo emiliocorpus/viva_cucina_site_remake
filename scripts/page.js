@@ -1,13 +1,42 @@
 //an image width in pixels 
-var imageWidth = 600;
-var currentImage = 0;
-//set image count 
-var allImages = 6;
-var slideshow;
+
+
 
 //DOM and all content is loaded 
 $(window).ready(function() {
 
+	function startAutoSlideshow() {
+		if (currentImage < allImages-1) {
+			currentImage++
+			setFramePosition(currentImage)
+		}
+		else if (currentImage == allImages-1) {
+			currentImage = 0
+			setFramePosition(currentImage)
+		}
+	}
+
+	//calculate the slideshow frame position and animate it to the new position
+	function setFramePosition(pos){
+
+		//calculate position
+			var px = imageWidth*pos*-1;
+			//set ul left position
+			$('#slideshow ul').animate({
+			opacity: 0.9,
+			left: px
+			}, 1200);
+			$('#slideshow ul').animate({
+			opacity:1.0,
+			}, 200)
+	}
+
+	var imageWidth = 600;
+    
+    var currentImage = 0;
+
+    //set image count 
+    var allImages = $('#slideshow li img').length;
 	//start slideshow
 	slideshow=setInterval(startAutoSlideshow, 4000)
 
@@ -49,28 +78,7 @@ $(window).ready(function() {
 
 });
 
-function startAutoSlideshow() {
-	if (currentImage < 5) {
-		currentImage++
-		setFramePosition(currentImage)
-	}
-	else if (currentImage == 5) {
-		currentImage = 0
-		setFramePosition(currentImage)
-	}
-}
 
-//calculate the slideshow frame position and animate it to the new position
-function setFramePosition(pos){
 
-	//calculate position
-		var px = imageWidth*pos*-1;
-		//set ul left position
-		$('#slideshow ul').animate({
-		opacity: 0.9,
-		left: px
-		}, 1200);
-		$('#slideshow ul').animate({
-		opacity:1.0,
-		}, 200)
-}
+
+

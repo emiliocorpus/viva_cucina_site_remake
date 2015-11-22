@@ -178,7 +178,8 @@ nav a:hover, nav a:focus{
 }
 
 #lower-content-container {
-	padding:20px;
+	padding-left:40px;
+	padding-right:40px;
 	font-size:1.25em;
 }
 
@@ -258,17 +259,20 @@ nav a:hover, nav a:focus{
     right:0px;
     border-right: 3px solid #fff;
 }
+#comments h3 {
+	font-variant: small-caps;
+	text-decoration:none;
+
+}
 
 
 #comments {
 	padding:1%;
-	margin-top: 20px;
-	height:450px;
-	overflow-y: auto;
 	width:95%;
+	font-size:20px;
 }
 
-#comments div, #comments h4{
+#comments div, #comments h3{
 	margin-left:10%;
 	
 }
@@ -284,30 +288,85 @@ nav a:hover, nav a:focus{
 	left:0;
 }
 
+.comment-name {
+	margin-left:150px;
+	font-variant:small-caps;
+}
+
 .non-landing-upper-content img{
 	text-align:center;
 	width:95%;
 	border-radius:25px;
 }
 
+#kids_pic {
+	width:600px;
+}
+
+#about-content-container {
+	text-align:center;
+}
+
+#about-me-pic {
+	display:inline-block;
+	width:300px;
+}
+
+#about-me-pic img {
+	margin-top:100px;
+	width:100%;
+	border-radius:25px;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+#about-barbara {
+	float:right;
+	text-align:justify;
+	width:60%;
+	padding:5%;
+}
+
+h2 {
+	color:#6F5534;
+}
+
+#about-barbara h2 {
+	font-variant:small-caps;
+}
+
+#menu {
+	float:right;
+	text-align:left;
+	width:300px.
+}
+
 .non-landing-upper-content h2{
 	font-variant:small-caps;
-	color:#6F5534;
+	
 	font-weight:bolder;
+
 }
 
 .non-landing-lower-content {
-	padding:10%;
-	margin-top:20px;
+	padding-left:10%;
+	padding-right:10%;
 }
 
+#contact-container {
+	text-align:center;
+}
 
-
+#contact {
+	text-align:left;
+	margin-left:20%;
+}
 
 
 
 /*  FOOTER  */
 #footer {
+	clear:both;
 	/*background-color:#C0C0C0;*/
 	height:100px;
 	width: 100%;
