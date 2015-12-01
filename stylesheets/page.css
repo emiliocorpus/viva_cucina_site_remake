@@ -167,9 +167,9 @@ nav a:hover, nav a:focus{
 	font-weight:bolder;
 	padding-left:30px;
 	font-size:1.8em;
-	font-variant: small-caps;
 	color:#E16028;
-	width:350px;
+	width:400px;
+	font-family:cursive;
 }
 
 #author{
