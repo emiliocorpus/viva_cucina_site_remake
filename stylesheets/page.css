@@ -32,7 +32,7 @@ body {
 	background-color: #FFFF00;
 	width:100%;
 	text-align:center;
-	height:160px;
+	height:175px;
 	
 }
 
@@ -49,6 +49,7 @@ body {
 	padding-left:5%;
 }
 #logo-container img{
+	margin-top: 20px;
 	height:130px;
 	width: 130px;
 }
@@ -67,9 +68,10 @@ body {
 }
 
 .unique {
-	font-variant: small-caps;
-	font-size: 20px;
-	margin-left:45px;
+	font-size: 1.6em;
+	margin-left:35px;
+	font-family:cursive;
+	font-weight:bolder;
 }
 
 /* NAV */
@@ -152,23 +154,22 @@ nav a:hover, nav a:focus{
 }
 
 
-
-#quote, #landing-header{
-	text-align:justify;
-	font-size: 1.5em;
-}
-
 #quote {
+	text-align:justify;
 	font-weight:bold;
+	font-size: 1.2em;
+	font-variant:small-caps;
+	padding-left:50px;
 }
 
 #landing-header {
-	text-align:center;
+	text-align:justify;
 	font-weight:bolder;
+	padding-left:30px;
 	font-size:1.8em;
 	font-variant: small-caps;
 	color:#E16028;
-
+	width:350px;
 }
 
 #author{
