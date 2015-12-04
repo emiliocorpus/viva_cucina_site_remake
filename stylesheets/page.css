@@ -18,7 +18,7 @@ body {
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100%;
-  min-width:1070px;
+  min-width:1090px;
   background-color:#F7F7CE;
 }
 
@@ -64,12 +64,12 @@ body {
 	font-family: 'Mistral';
 	text-shadow: 1px 1px #5C5C5C;
 	font-size:80px;
-	margin-left:20px;
+	margin-left:65px;
 }
 
 .unique {
 	font-size: 1.6em;
-	margin-left:35px;
+	margin-left:80px;
 	font-family:cursive;
 	font-weight:bolder;
 }
@@ -145,10 +145,7 @@ nav a:hover, nav a:focus{
 
 #landing-page-quote {
 	width:350px;
-	padding:1%;
 	display:inline-block;
-	margin-left:10px;
-	margin-right:30px;
 	text-align:left;
 	margin-top:50px;
 }
@@ -157,18 +154,18 @@ nav a:hover, nav a:focus{
 #quote {
 	text-align:justify;
 	font-weight:bold;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-variant:small-caps;
-	padding-left:50px;
+	padding-left:30px;
+	width:250px;
 }
 
 #landing-header {
 	text-align:justify;
 	font-weight:bolder;
-	padding-left:30px;
-	font-size:1.8em;
+	font-size:1.7em;
 	color:#E16028;
-	width:400px;
+	width:350px;
 	font-family:cursive;
 }
 
@@ -181,7 +178,7 @@ nav a:hover, nav a:focus{
 #lower-content-container {
 	padding-left:40px;
 	padding-right:40px;
-	font-size:1.25em;
+	font-size:1.2em;
 }
 
 #content {
@@ -206,6 +203,7 @@ nav a:hover, nav a:focus{
     height:400px;
 	vertical-align:top;
 	box-shadow:8px 10px 6px #505050;
+	margin-right:30px;
 }
 
 #slideshow{
