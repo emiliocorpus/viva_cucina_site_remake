@@ -55,23 +55,29 @@ body {
 }
 
 #banner-title{
-	display:table-cell;
+	display:table;
 	text-align:left;
+}
 
+#banner-title img {
+	margin-top:30px;
+	height:130px;
 }
 
 .title {
-	font-family: 'Mistral';
+	font-family: 'Mistral', cursive;
 	text-shadow: 1px 1px #5C5C5C;
-	font-size:80px;
-	margin-left:65px;
+	font-size:85px;
+	margin-left:45px;
+	padding:0px;
+	height:100px;
 }
 
 .unique {
-	font-size: 1.6em;
-	margin-left:80px;
+	font-size: 30px;
+	margin-left:27px;
 	font-family:cursive;
-	font-weight:bolder;
+	color:#464646;
 }
 
 /* NAV */
@@ -136,8 +142,6 @@ nav a:hover, nav a:focus{
 }
 
 
-
-
 #upper-content-container {
 	padding:20px;
 	text-align:center;
@@ -156,8 +160,9 @@ nav a:hover, nav a:focus{
 	font-weight:bold;
 	font-size: 1.3em;
 	font-variant:small-caps;
-	padding-left:30px;
-	width:250px;
+	padding-left:65px;
+	width:300px;
+	font-family: 'Lucida-sans', sans-serif;
 }
 
 #landing-header {
@@ -166,7 +171,9 @@ nav a:hover, nav a:focus{
 	font-size:1.7em;
 	color:#E16028;
 	width:350px;
-	font-family:cursive;
+	font-family: 'Lucida-sans', sans-serif;
+	font-style:italic;
+	font-variant:small-caps;
 }
 
 #author{
@@ -337,7 +344,7 @@ h2 {
 #menu {
 	float:right;
 	text-align:left;
-	width:300px.
+	width:300px;
 }
 
 .non-landing-upper-content h2{
